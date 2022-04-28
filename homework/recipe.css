@@ -28,6 +28,7 @@ body {
     font: 11px normal;
     font-family: Georgia, 'Garamond', sans-serif;
     background-image: url('./recipeImages/silverware.jpg');
+    
 }
 
 a {
@@ -54,4 +55,5 @@ pre {
 
 ul {
     list-style-image: url('./recipeImages/pie_icon.gif');
+    
 }
