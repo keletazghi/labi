@@ -6,7 +6,7 @@ body{
     /* background-image: url(WAP all projects/Robel921.github.io/MovieReview/images/background.png); */
     margin: 0px;
     padding: 0px;
-    background-color:url(./images/background.png) ;
+    background-image:url(./images/background.png) ;
 }
 #topBanner{
     text-align: center;
