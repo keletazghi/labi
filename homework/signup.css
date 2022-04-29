@@ -1,12 +1,16 @@
 *{
-    margin: 10;
-    padding: 5;
-    background-color: aquamarine;
-    border: 2;
+    margin: 0.5%;
+    padding: 0.3%;
+    border-radius: 5px;   
 }
-
-   
-
-.sign up{
-    background-color: darkgoldenrod;
+form{
+    background-color: aquamarine;
+    border-style: inset;
+    border-color: aqua;
+    padding-right: 10px;
+    margin-right: 700px;
+}
+#signup{
+    background-color: brown;
+    
 }
