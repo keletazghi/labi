@@ -9,12 +9,20 @@ body{
     border-radius: 0.7%;
     margin-right:700px;
 }
-#tass{
+
+#task{
+    float: right;
+}
+#add{
     float:right;
     font-display: top;
     margin:0%;
     padding:0;
+    font-size: medium;
 }
-#task{
-    float:right;
+#button{
+    background-color: brown;
+}
+#buttonclear{
+    background-color: blue;
 }

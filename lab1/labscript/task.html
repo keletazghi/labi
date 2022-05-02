@@ -6,34 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task list</title>
     <link rel="stylesheet" href="task.css"/>
+    <script src="./scrip.js"></script>
 </head>
 <body>
     <h>Task List</h>
     <p>task</p>
-    <input type="text" id="text"/>
-    <br><br>
-    <button type="button" onclick="addTask()">add Task</button>
-    <br><br>
-    <button type="button" onclick="clearTask()">clear Task</button>
-    <br>
+    <input type="text" id="text"/> 
     <p id="task">task list</p>
-    <div  id="tass">
     <textarea type="text" id="add" width="500px" height="300px"></textarea>
+    <br><br>
+    <div class="button">
+    <button type="button" onclick="addTask()">add Task</button>
     </div>
-    <script>
-        function addTask(){ 
-            
-           var s= document.getElementById("text");
-           
-           document.getElementById("add").innerText=s.value;
-           
-           
-           
-        }
-        function clearTask(){
-            document.getElementById("add").innerHTML="";
-        }
+    <br><br>
+    <div class="buttonclear">
+    <button type="button" onclick="clearTask()">clear Task</button>
+    </div>
+    <br>
+    
+    
+   
+    
+    
+        
        
-    </script>
+
 </body>
 </html>
