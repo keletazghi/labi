@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task list</title>
+    <link rel="stylesheet" href="task.css"/>
+</head>
+<body>
+    <h>Task List</h>
+    <p>task</p>
+    <input type="text" id="text"/>
+    <br><br>
+    <button type="button" onclick="addTask()">add Task</button>
+    <br><br>
+    <button type="button" onclick="clearTask()">clear Task</button>
+    <br>
+    <p id="task">task list</p>
+    <div  id="tass">
+    <textarea type="text" id="add" width="500px" height="300px"></textarea>
+    </div>
+    <script>
+        function addTask(){ 
+            
+           var s= document.getElementById("text");
+           
+           document.getElementById("add").innerText=s.value;
+           
+           
+           
+        }
+        function clearTask(){
+            document.getElementById("add").innerHTML="";
+        }
+       
+    </script>
+</body>
+</html>
