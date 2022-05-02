@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>excercise</title>
+    <link rel="stylesheet" href="./exercise.css"/>
+</head>
+<body>
+    
+
+<h1>Javascript Exercises</h1>
+<div class="prob1">
+<p id="pro1">1. What is the difference between the following 2 statements?<br>
+setTimeout(booyah, 2000);<br>
+setTimeout(booyah(), 2000);</p>
+<p>ans-> <br>
+a, setTimeout(booyah,2000); in this case the function booyah wiil be called after 2 seconds.<br>
+b, setTimeout(booyah(),2000); in this case the function will be called without waiting 2 seconds.</p>
+</div>
+<div class="prob2">
+<p id="pro2">2. What do the following 2 alerts display (answer without running the code)?<br>
+var myfunc = function(a, x) {<br>
+ return a * x;<br>
+};<br>
+var x = myfunc(2, 3);<br>
+var y = myfunc;<br>
+alert(x);<br>
+alert(y(2,3));</p>
+<p id="ans2"></p>ans -> both alrt will display 6;</p>
+</div>
+<div class="prob3">
+<p id="pro3">3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that<br>
+says “BOOYAH!”<br>
+setTimeout(booyah1, 2000);<br>
+setTimeout(booyah2(), 2000);
+</p>
+<p id="ans3">ans-> <br>
+    var booyah1=function(){<br>
+    alert("BOOYAH");<br>
+}<br>
+   ->function booyah2(){<br>
+       alert("BOOYAH");<br>
+   }
+</p>
+</div>
+<div class="prob4">
+<p id="pro4">4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons
+for using it)?</p>
+ <p id="ans4">Ans -> unobstrusive javascript is a methodology for attaching JavaScript to the front-end of a website.<br>
+  it is used to separate the content and functionality. Means the separation of JS file and HTML file.<br> 
+  Separation of functionality (the "behavior layer") from a Web page's structure/content and presentation.<br>
+  means to separate the codes that is CSS,HTML and JAVASCRIPT codes.</p></div>
+</body>
+</html>
