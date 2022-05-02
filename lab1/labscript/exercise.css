@@ -1,28 +1,28 @@
 body{
     background-color: aqua;
 }
-.pro1{
-    color: burlywood;
+#pro1{
+    color:blue;
 }
-.ans1{
-    background-color: crimson;
+#ans1{
+    
     color: crimson;
 }
-.pro2{
-    color: burlywood;
+#pro2{
+    color:blue;
 }
-.ans2{
+#ans2{
     color: crimson;
 }
-.pro3{
-    color: burlywood;
+#pro3{
+    color:blue;
 }
-.ans3{
+#ans3{
     color: crimson;
 }
-.pro4{
-    color: burlywood;
+#pro4{
+    color:blue;
 }
-.ans4{
+#ans4{
     color: crimson;
 }
