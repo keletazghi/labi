@@ -1,7 +1,9 @@
 function addTask(){  
-    let textarea = document.getElementById("add").value;           
+    let t = document.getElementById("add").value;  
+    let m=localStorage.getItem("ku") ;
+    localStorage.setItem("ku",m+"\n"+t)        
     let s= document.getElementById("text");    
-    document.getElementById("add").innerText=textarea+ "\n "+s.value; 
+    document.getElementById("add").innerText=localStorage.getItem("ku"); 
     s.value = '';   
  }
  function clearTask(){
