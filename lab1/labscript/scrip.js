@@ -1,12 +1,21 @@
-function addTask(){  
-    let t = document.getElementById("add").value;  
-    let m=localStorage.getItem("ku");
-    localStorage.setItem("ku",m+"\n"+t);
+function addTask(){ 
 
-    let s= document.getElementById("text");    
-    s.innerText=localStorage.getItem("ku"); 
-   
+    let t = document.getElementById("text");  
+    let textarea = document.getElementById("add");
+    let items =localStorage.getItem("ku"); 
+
+    if(items == null){
+        localStorage.setItem("ku",t.value);  
+        textarea.value = t.value;
+        t.value = '';
+    }else {
+        localStorage.setItem("ku",items+"\n"+t.value);
+        textarea.value = items+ " " +t.value;
+        t.value = '';
+    }       
+      
  }
  function clearTask(){
-     document.getElementById("add").innerText="";
+     document.getElementById("add").value='';
+     localStorage.removeItem("ku");
  }
