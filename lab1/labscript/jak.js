@@ -1,4 +1,4 @@
-fwindow.onload = function () {
+window.onload = function () {
     document.getElementById('create').onclick = createAccount;
   }
   
