@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizeII</title>
+    <link rel="stylesheet" href="./quizzii.css">
+</head>
+<body>
+    <div>
+        <h2>jQuery Quiz II</h2>
+        <hr>
+    <ol>
+    <li id="prob1" >
+         All three of them are equivalent, because all of them tells that the css operation is applied for every element of the
+        list.
+    </li>
+    <br>
+        <li id="prob2" >
+        
+        &lt;div&gt;no ul here &lt;/div&gt;<br>
+        &lt;div&gt;<br>
+            This does contain a ul.<br>
+            &lt;ul&gt;<br>
+            &lt;li&gt;the first item&lt;/li&gt;<br>
+            &lt;li&gt;the second item&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;script&gt;<br>
+            <p id="ans2"> $(document).ready(function(){<br>
+                    $('div ul').css("color","blue");<br>
+                });<br>
+                &lt;/script&gt;<br></p>
+            </li>
+            <br>
+            <li id="ans3" >
+                    &lt;script&gt;<br>
+                            $(document).ready(function () {<br>
+                                $("body").append("&lt;h1&gt;jQuery Core&lt;/h1&gt;");<br>
+                            });<br>
+                    
+                    
+                            &lt;/script&gt;
+            </li>
+    
+            </ol>
+    </div>   
+</body>
+</html>
