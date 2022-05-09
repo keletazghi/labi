@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+#divv{
+    /* width:fit-content; */
+    margin:auto;
+}
+.sp{
+    border: 5px solid black;
+    display:inline;
+
+
+}
+#textarea{
+    width: 89%;
+    height:400px;
+    margin:auto;
+    font-family: monospace;
+    font:12px bold;
+    border-style:dotted;
+
+
+}
