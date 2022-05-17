@@ -1,0 +1,25 @@
+{
+    margin: 1%;
+    padding: 0;
+    background-color: gray;
+}
+.me{
+    font-weight: bold;
+    font-size: 25px;
+}
+.course{
+    font-weight: bold;
+    font-size: 25px;
+}
+.movie{
+    font-weight: bold;
+    font-size: 25px;
+}
+.mood{
+    font-weight: bold;
+    font-size: 25px;
+}
+.fact{
+    font-weight: bold;
+    font-size: 25px;
+}

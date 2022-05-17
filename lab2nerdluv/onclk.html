@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clicks</title>
+    <link rel="stylesheet" href="./clic.css">
+    
+</head>
+<body>
+    <h1 id="one">natsi sakt<a href="https://www.facebook.com/natsinet.ghirmay">click natsi</a>  to have more about natsi</h1><br><br>
+    <p id="two">this is the info</p><br><br><br>
+    <img id="im" src="https://www.facebook.com/photo/?fbid=3006363342976279&set=a.1378576609088302" alt="natsi pic"><br><br><br>
+    <button id="bu">clickme to see natsi info</button>
+</body>
+<script src="/lab1/jquery-3.6.0new.js"></script>
+<script>
+$(document).ready(function(){
+    $("#bu").click(function(){
+        $('#onec,#two,#im').animate({
+            left:'300px',
+            width:'100px',
+            height:'150px',
+            color:'red',
+
+        },1000);
+
+    });
+});
+</script>
+
+</html>
